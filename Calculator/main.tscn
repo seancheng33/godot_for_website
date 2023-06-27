@@ -1,0 +1,144 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://main.gd" type="Script" id=1]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0.2, 0.2, 0.2, 1 )
+
+[node name="main" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+
+[node name="Label" type="Label" parent="."]
+anchor_right = 1.0
+margin_left = 8.0
+margin_top = 8.0
+margin_right = -10.0
+margin_bottom = 56.0
+custom_styles/normal = SubResource( 1 )
+valign = 1
+
+[node name="Control" type="Control" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = 64.0
+
+[node name="Button" type="Button" parent="Control"]
+margin_left = 8.0
+margin_top = 8.0
+margin_right = 56.0
+margin_bottom = 56.0
+text = "C"
+
+[node name="Button2" type="Button" parent="Control"]
+margin_left = 72.0
+margin_top = 8.0
+margin_right = 120.0
+margin_bottom = 56.0
+text = "/"
+
+[node name="Button3" type="Button" parent="Control"]
+margin_left = 136.0
+margin_top = 8.0
+margin_right = 184.0
+margin_bottom = 56.0
+text = "*"
+
+[node name="Button4" type="Button" parent="Control"]
+margin_left = 200.0
+margin_top = 8.0
+margin_right = 248.0
+margin_bottom = 56.0
+text = "-"
+
+[node name="Button5" type="Button" parent="Control"]
+margin_left = 8.0
+margin_top = 72.0
+margin_right = 56.0
+margin_bottom = 120.0
+text = "7"
+
+[node name="Button6" type="Button" parent="Control"]
+margin_left = 72.0
+margin_top = 72.0
+margin_right = 120.0
+margin_bottom = 120.0
+text = "8"
+
+[node name="Button7" type="Button" parent="Control"]
+margin_left = 136.0
+margin_top = 72.0
+margin_right = 184.0
+margin_bottom = 120.0
+text = "9"
+
+[node name="Button9" type="Button" parent="Control"]
+margin_left = 8.0
+margin_top = 136.0
+margin_right = 56.0
+margin_bottom = 184.0
+text = "4"
+
+[node name="Button10" type="Button" parent="Control"]
+margin_left = 72.0
+margin_top = 136.0
+margin_right = 120.0
+margin_bottom = 184.0
+text = "5"
+
+[node name="Button11" type="Button" parent="Control"]
+margin_left = 136.0
+margin_top = 136.0
+margin_right = 184.0
+margin_bottom = 184.0
+text = "6"
+
+[node name="Button12" type="Button" parent="Control"]
+margin_left = 200.0
+margin_top = 72.0
+margin_right = 248.0
+margin_bottom = 184.0
+text = "+"
+
+[node name="Button13" type="Button" parent="Control"]
+margin_left = 8.0
+margin_top = 200.0
+margin_right = 56.0
+margin_bottom = 248.0
+text = "1"
+
+[node name="Button14" type="Button" parent="Control"]
+margin_left = 72.0
+margin_top = 200.0
+margin_right = 120.0
+margin_bottom = 248.0
+text = "2"
+
+[node name="Button15" type="Button" parent="Control"]
+margin_left = 136.0
+margin_top = 200.0
+margin_right = 184.0
+margin_bottom = 248.0
+text = "3"
+
+[node name="Button16" type="Button" parent="Control"]
+margin_left = 200.0
+margin_top = 200.0
+margin_right = 248.0
+margin_bottom = 312.0
+text = "="
+
+[node name="Button17" type="Button" parent="Control"]
+margin_left = 8.0
+margin_top = 264.0
+margin_right = 120.0
+margin_bottom = 312.0
+text = "0"
+
+[node name="Button19" type="Button" parent="Control"]
+margin_left = 136.0
+margin_top = 264.0
+margin_right = 184.0
+margin_bottom = 312.0
+text = "."
